@@ -11,8 +11,8 @@ end
  def current_player(board)
   # board.each do |move|
   if turn_count(board) % 2 != 0
-    puts "O"
+    "O"
   elsif turn_count(board) % 2 == 0
-    puts "X"
+    "X"
   end
 end

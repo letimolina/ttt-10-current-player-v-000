@@ -8,8 +8,11 @@ def turn_count(board)
 counter
 end
     
-    
-  # if count % 2 != 0
-  #   puts "X"
-  # elsif count % 2 == 0 
-  #   puts "O"
+ def current_player(board)
+  # board.each do |move|
+  if turn_count(board) % 2 != 0
+    puts "O"
+  elsif turn_count(board) % 2 == 0
+    puts "X"
+  end
+end

@@ -3,9 +3,11 @@ def turn_count(board)
   board.each |space|
   if board[space] == "X" || board[space] == "O"
     count += 1
+  end
+end
     
     
-  if count % 2 != 0
-    puts "X"
-  if count % 2 == 0 
-    puts "O"
+  # if count % 2 != 0
+  #   puts "X"
+  # elsif count % 2 == 0 
+  #   puts "O"
